@@ -1,0 +1,18 @@
+.balloon {
+  max-width: 20%;
+  height: auto;
+  position: absolute;
+  bottom: 5%;
+  left: 70%;
+  animation: ballonAnimation 40s ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes ballonAnimation {
+  from {
+    bottom: 5%;
+  }
+  to {
+    bottom: 85%;
+  }
+}
